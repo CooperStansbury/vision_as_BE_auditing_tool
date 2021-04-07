@@ -64,9 +64,9 @@ print(cities_df.shape)
 
 [print(x) for x in cities_df.columns]
 
-# add a cleaned column with the shortenedd FIPS tract id
-cities_df['TRACT'] = cities_df['TractFIPS'].astype(str).str[-6:] 
-cities_df.head()
+# # add a cleaned column with the shortenedd FIPS tract id
+# cities_df['TRACT'] = cities_df['TractFIPS'].astype(str).str[-6:] 
+# cities_df.head()
 
 # %% 
 # -----------------------------------------------------------------------------------------------
